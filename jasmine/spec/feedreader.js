@@ -90,8 +90,8 @@ $(function() {
          });
          
          it('feed container has atleast 1 entry', function() {
-            let entryNumber = $('.entry').length;
-            expect(entryNumber).toBeGreaterThan(0);
+            const feed = $('.feed .entry').length;
+            expect(feed).toBeGreaterThan(0);
          });
     });
     /* TODO: Write a new test suite named "New Feed Selection" */
